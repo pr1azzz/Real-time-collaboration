@@ -71,8 +71,11 @@
 1. Клонировать репозиторий:
    ```bash
    git clone <url-вашего-репозитория>
+   ```bash
    cd task-manager
 2. Настроить переменные окружения:
+    ```bash
     cp .env.example .env
 3. Запустить все сервисы одной командой:
+    ```bash
     docker-compose up --build
