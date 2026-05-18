@@ -1,0 +1,89 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--light-bg, #ecf0f1);
+}
+
+.auth-card {
+  background: var(--white, #ffffff);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: var(--shadow-hover, 0 10px 40px rgba(0, 0, 0, 0.1));
+  width: 100%;
+  max-width: 420px;
+}
+
+.auth-card h2 {
+  text-align: center;
+  color: var(--primary-color, #2c3e50);
+  margin-bottom: 8px;
+  font-size: 28px;
+}
+
+.auth-card h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: var(--light-text, #7f8c8d);
+  font-weight: 500;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: var(--accent-color, #3498db);
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: var(--accent-color, #3498db);
+  color: var(--white, #ffffff);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.auth-card button:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+}
+
+.auth-card .error {
+  background: #fee;
+  color: var(--danger-color, #e74c3c);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.auth-card p {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--light-text, #7f8c8d);
+}
+
+.auth-card a {
+  color: var(--accent-color, #3498db);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}
